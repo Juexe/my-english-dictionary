@@ -1,0 +1,212 @@
+﻿.HWD {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    background: #005cab;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.Section {
+    display: table;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.Section > .SECNR {
+    margin-right: 4px;
+    padding-left: 2px;
+    color: black;
+    font-weight: 600;
+}
+
+.SECNR {
+    color: black;
+    font-weight: 600;
+}
+
+.References .TITLE {
+	font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(128, 157, 185);
+    padding-right: 6px;
+    padding-left: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.REFTYPE::after {
+    content: ' :';
+}
+
+.REFTYPE {
+    font-size: 16px;
+}
+
+.REFTYPE zh_cn {
+    display: inline;
+}
+
+.Crossref {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+.Crossref::after {
+    content: ',';
+}
+.Exas, .DEF{
+    transition: max-height 1s;
+}
+.Exponent{
+    padding: 5px;
+    outline: 1px dotted lightgrey;
+}
+.Exponent:focus .Exas, .Exponent:focus .DEF{
+    visibility: visible;
+    max-height: 1400px;
+}
+.Exas, .DEF{
+    display: block;
+    visibility: hidden;
+    max-height: 0;
+}
+.LABEL, .GLOSS{
+    display: none;
+}
+.EXP {
+    border-bottom: 3px solid red;
+    font-weight: bold;
+}
+
+.EXAMPLE:before {
+    content: '[例]';
+    font-size: medium;
+    color: lightgray;
+}
+.EXAMPLE zh_cn:before {
+    content: '[译] ';
+    color: lightgray;
+}
+
+.PRON {
+    color: gray;
+}
+
+.GRAM {
+    font-style: italic;
+    margin-left: 6px;
+    display: inline-block;
+    color: gray;
+}
+
+.DEF {
+    display: block;
+    color: gray;
+    border-left: 4px lightgray solid;
+    padding-left: 6px;
+    margin: 15px 0 5px;
+}
+.DEF zh_cn{
+    color: gray;
+    display: inline;
+}
+.DEF zh_cn:before {
+    content: '/ ';
+    color: gray;
+    padding-left: 3px;
+}
+
+.Exponent {
+    margin-top: 22px;
+    display: block;
+}
+
+
+.PROPFORM {
+    padding-top: 6px;
+    display: block;
+    color: rgb(10, 147, 201);
+}
+
+.PROPFORM:before {
+    content: '';
+    color: lightgray;
+}
+
+.EXAMPLE {
+    padding-top: 4px;
+    color: darkblue;
+    display: block;
+}
+
+zh_cn {
+    font-style: normal;
+    display: table;
+    color: #b0b0b0;
+}
+
+.SECDEF zh_cn {
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.SECDEF {
+    margin-top: 26px;
+    font-weight: 600;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: table;
+    background-color: rgb(65, 171, 100);
+    border-radius: 20px;
+}
+
+.REPEAT {
+    color: rgb(241, 94, 94);
+}
+
+.GLOSS zh_cn {
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+a .Section {
+    color: rgb(64, 169, 230);
+}
+
+.References {
+	font-size: 14px;
+}
+
+.SUBHWD {
+	display: none;
+}
+
+.Reference {
+
+}
+
+.Ref {
+    display: inline-block;
+    font-size: 11px;
+    color: red;
+    font-weight: 600;
+}
+
+.Reference::before {
+    content: "\A";
+    white-space: pre;
+}
